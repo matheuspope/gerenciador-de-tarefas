@@ -16,23 +16,7 @@ function App() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
 
-  useEffect(() => {
-    const fetchTasks = async () => {
-      const response = await fetch(
-        "https://jsonplaceholder.typicode.com/todos?_limit=10",
-        {
-          method: "get",
-        }
-      );
-      const data = await response.json();
-      console.log(data);
-
-      setTasks(data);
-    };
-
-    // eu posso chamar uma API para pegar as tarefas
-    //fetchTasks();
-  }, []);
+  
 
   function onTaskClick(taskId) {
     // criamos uma função que atualiza o isCompleted de uma tarefa
