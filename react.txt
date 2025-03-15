@@ -1,0 +1,9 @@
+react é uma biblioteca usado para criar interfaces interativas
+
+npm node packge manager
+
+SPA (Single Page Application) um SPA é uma pagina HTML vazia e quem coloca o conteúdo é o javascript
+
+conteúdo inserido por meio de Javascript (react)
+
+npm run dev - eu inicio o meu projeto
